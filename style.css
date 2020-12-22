@@ -1,0 +1,54 @@
+.body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container{
+    max-width: 350px;
+}
+/*Секция ввода параметров*/
+.param{
+    margin-top: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.param__title{
+    width: 100%;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+}
+.param__form{
+    width: 100%;
+    margin-top: 20px;
+}
+.param__section{
+    display: flex;
+    justify-content: space-between;
+}
+
+/*Секция отображения результата*/
+.result{
+    margin-top: 20px;
+    width: 100%;
+}
+.result__title{
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+}
+.result__value{
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    font-style: 32px;
+    font-weight: 900;
+}
+.result__discription{
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+}

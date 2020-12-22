@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Калькулятор индекса массы тела</title>
+</head>
+
+<body class="body">
+    <div class="container">
+        <section class="param">
+            <span class="param__title">Введите ваши параметры:</span>
+            <form class="param__form">
+                <div class="param__section">
+                    <span class="param__input-title">Вес(кг):</span>
+                    <input type="text" class="param__input-value weight">
+                </div>
+                <div class="param__section">
+                    <span class="param__input-title">Рост(см):</span>
+                    <input type="text" class="param__input-value height">
+                </div>
+            </form>
+        </section>
+
+        <section class="result">
+            <span class="result__title">Ваш индекс массы тела:</span>
+            <h2 class="result__value"></h2>
+            <span class="result__discription">Для начала введите параметры</span>
+        </section>
+    </div>
+ <script src="script.js"></script>
+</body>
+
+</html>
